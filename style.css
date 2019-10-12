@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #d8e7b4;
+}
+
+/*------homepage-----*/
+ul {
+  top: 50%;
+  left: 75%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin: 100px;
+  padding: 0;
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  width: 40px;
+  height: 40px;
+  background: rgb(115, 150, 48);
+  margin: 15px;
+  border-radius: 50%;
+  animation: animate 1.4s linear infinite;
+  box-shadow: 4px 4px 10px blue;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0);
+  }
+
+  60% {
+    transform: translateY(0);
+  }
+
+  80% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+ul li:nth-child(1) {
+  animation-delay: 0;
+}
+
+ul li:nth-child(2) {
+  animation-delay: -1.2s;
+}
+
+ul li:nth-child(3) {
+  animation-delay: -1s;
+}
+
+ul li:nth-child(4) {
+  animation-delay: -.8s;
+}
+
+ul li:nth-child(5) {
+  animation-delay: -.6s;
+}
+
+h1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 100px;
+  color: rgb(115, 150, 48);
+  border: 1px solid black;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  text-shadow: 4px 4px 10px blue;
+}
+
+h3 {
+  font-family: cursive;
+  font-size: 20px;
+  color: rgb(115, 150, 48);
+  padding-left: 100px;
+  text-shadow: 6px 6px 14px;
+}
+
+a {
+  color: rgb(115, 150, 48);
+  text-decoration: none;
+}
+
+.maindiv {
+  height: auto;
+  width: auto;
+}
+
+/*----SUMMARY---*/
+h4 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 50px;
+  color: rgb(115, 150, 48);
+  margin-top: 30px;
+  text-shadow: 8px 8px 10px;
+}
+
+h5 {
+  text-align: left;
+  font-family: cursive;
+  font-size: 30px;
+  color: rgb(115, 150, 48);
+  margin: 20px;
+  text-shadow: 8px 8px 10px;
+}
+
+p {
+  margin-left: 100px;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+  padding: 70px;
+}
+
+.img {
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  padding-left: 150px;
+  color: rgb(115, 150, 48);
+  text-shadow: 8px 8px 10px;
+}
+
+.text1 {
+  position: absolute;
+  padding-left: 625px;
+  color: rgb(115, 150, 48);
+  text-shadow: 8px 8px 10px;
+}
+
+.text2 {
+  position: absolute;
+  padding-left: 1035px;
+  color: rgb(115, 150, 48);
+  text-shadow: 8px 8px 10px;
+}
